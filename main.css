@@ -85,6 +85,11 @@ padding-top: 20px;
 	border-top: 1px #0065FC solid;
 }
 
+main > div:nth-child(2) {
+	order: 2;
+	visibility: hidden;
+}
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 500px) {
@@ -113,5 +118,15 @@ padding-top: 20px;
 
 	#heb-act > a {
 		margin-bottom: 0px;
+	}
+
+	main > div:first-child {
+		order: 2;
+		visibility: hidden;
+	}
+
+	main > div:nth-child(2) {
+		order: 1;
+		visibility: visible;
 	}
 }
