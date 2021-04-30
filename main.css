@@ -50,12 +50,12 @@ img {
 #desktop {
 	object-fit: cover;
 	width: 100%;
-	height: 200px;
+	height: 100px;
 }
 #mobile {
 	object-fit: cover;
 	width: 100%;
-	height: 200px;
+	height: 180px;
 }
 
 /*VISUAL ONLY*/
